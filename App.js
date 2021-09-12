@@ -11,6 +11,7 @@ const STATUSES = {
 };
 
 export default function App() {
+  console.log("check github");
   const [focusSubject, setFocusSubject] = useState(null);
   const [focusHistory, setFocusHistory] = useState([]);
 
@@ -22,6 +23,7 @@ export default function App() {
   // console.log(focusHistory);
 
   const addFocusHistorySubjectWithStatus = (subject, status) => {
+    console.log("yolo");
     setFocusHistory([...focusHistory, { key: String(focusHistory.length + 1), subject, status }]);
   };
 
