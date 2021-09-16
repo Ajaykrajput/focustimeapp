@@ -11,7 +11,7 @@ const STATUSES = {
 };
 
 export default function App() {
-  console.log("check github");
+  console.log("check github publish");
   const [focusSubject, setFocusSubject] = useState(null);
   const [focusHistory, setFocusHistory] = useState([]);
 
